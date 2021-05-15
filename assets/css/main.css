@@ -46,7 +46,7 @@ main .intro .intro-div article p{
 */
 main .middle{
     background: url('./../../images/bg-pattern-circles.svg') hsl(237, 17%, 21%) no-repeat;
-    height: 60vh;
+    height: 400px;
     background-position: -49% 80%;
     background-size: 70%;
     display: flex;
@@ -58,9 +58,9 @@ main .middle{
 main .middle div{
     background: url('./../../images/illustration-phones.svg') no-repeat;
     width: 50%;
-    height: 125%;
-    background-position: 80% 20%;
-    background-size: 70%;
+    height: 600px;
+    background-position: 100px 30px;
+    background-size: auto;
 }
 main .middle article{
     width: 50%;
@@ -69,7 +69,7 @@ main .middle article{
 }
 main .middle article h2{
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2.2em;
     line-height: 2em;
 }
 main .middle article p{
