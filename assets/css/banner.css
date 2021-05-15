@@ -1,0 +1,62 @@
+.banner{
+    background: url('./../../images/bg-pattern-intro.svg') hsl(13, 100%, 72%) no-repeat;
+    background-position: 25.4% 52%;
+    background-size: 217%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom-left-radius: 100px;
+    margin-bottom: 3em;
+}
+.banner section{
+    color: #fff;
+    font-family: Overpass, sans-serif;
+    margin-top: 20vh;
+}
+.banner section h1{
+    font-family: Overpass, sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 1.7em;
+}
+.banner section p{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.banner div{
+    width: 24%;
+    height: 26%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner div a{
+    font-family: Ubuntu, sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.banner div a:first-child{
+    font-family: Ubuntu, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    background: #fff;
+    padding: .8em 1em;
+    border-radius: 50px;
+    color: hsl(353, 100%, 62%);
+    font-weight: 700;
+}
+.banner div a:last-child{
+    font-family: Ubuntu, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    background: transparent;
+    padding: .71em 1.1em;
+    border-radius: 50px;
+    color: #fff;
+    border: 2px solid white;
+    font-weight: 700;
+}

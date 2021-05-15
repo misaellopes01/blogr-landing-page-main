@@ -11,13 +11,15 @@ html{
 body{
     font-size: 1em;
     font-family: Ubuntu, sans-serif;
+    background:   hsl(0, 0%, 100%);
 }
-/* ################# 
-    HEADER 
-#################### */
-
-
-
+h2, h3{
+    font-family: Overpass, sans-serif;
+    color: hsl(208, 49%, 24%);
+}
+p{
+    font-family: Ubuntu, sans-serif;
+}
 
 
 /*

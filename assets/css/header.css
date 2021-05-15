@@ -10,7 +10,7 @@ header{
     padding: 4em 0 2em 0;
 }
 header nav{
-    width: 80%;
+    width: 81.3%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,7 +52,7 @@ header nav .navbar2 a{
 }
 .signIn-btn{
     background: #fff;
-    padding: .9em 2.4em;
+    padding: .9em 2.3em;
     border-radius: 50px;
     color: hsl(353, 100%, 62%);
     font-weight: 700;
