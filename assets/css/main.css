@@ -5,9 +5,10 @@
 */
 main .intro{
     background: url('./../../images/illustration-editor-desktop.svg') no-repeat;
-    height: 120vh;
+    height: 135vh;
     background-position: 142% 0%;
     background-size: 60%;
+    margin-bottom: 2em;
 }
 main .intro h2{
     display: flex;
@@ -44,8 +45,35 @@ main .intro .intro-div article p{
 ############################################################
 */
 main .middle{
-    background: url('./../../images/illustration-editor-desktop.svg') no-repeat;
-    height: 120vh;
-    background-position: 142% 0%;
-    background-size: 60%;
+    background: url('./../../images/bg-pattern-circles.svg') hsl(237, 17%, 21%) no-repeat;
+    height: 60vh;
+    background-position: -49% 80%;
+    background-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+main .middle div{
+    background: url('./../../images/illustration-phones.svg') no-repeat;
+    width: 50%;
+    height: 125%;
+    background-position: 80% 20%;
+    background-size: 70%;
+}
+main .middle article{
+    width: 50%;
+    padding-left: 1em;
+    padding-right: 8em;
+}
+main .middle article h2{
+    color: #fff;
+    font-size: 2.3em;
+    line-height: 2em;
+}
+main .middle article p{
+    color: hsl(240, 2%, 79%);
+    font-size: 1em;
+    line-height: 1.8em;
 }
