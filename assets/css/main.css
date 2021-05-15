@@ -5,10 +5,10 @@
 */
 main .intro{
     background: url('./../../images/illustration-editor-desktop.svg') no-repeat;
-    height: 135vh;
+    height: 125vh;
     background-position: 142% 0%;
     background-size: 60%;
-    margin-bottom: 2em;
+
 }
 main .intro h2{
     display: flex;
