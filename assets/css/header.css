@@ -1,0 +1,59 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 4em 0 2em 0;
+}
+header nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 0 2em;
+}
+header nav .navbar{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: flex-start;
+}
+header nav .navbar ul{
+    padding-left: 2em;
+    display: flex;
+    list-style: none;
+}
+header nav .navbar ul li{
+    padding-left: 2em;
+    color: #fff;
+}
+.navbar span{
+    margin-left: .3em;
+}
+header nav .navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 24%;
+}
+header nav .navbar2 a{
+    text-decoration: none;
+}
+.login-btn{
+    padding-right: 2em;
+    color: #fff;
+}
+.signIn-btn{
+    background: #fff;
+    padding: .9em 2.4em;
+    border-radius: 50px;
+    color: hsl(353, 100%, 62%);
+    font-weight: 700;
+}
